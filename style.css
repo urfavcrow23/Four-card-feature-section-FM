@@ -1,0 +1,81 @@
+:root {
+  margin: 0;
+  padding: 0;
+  --main-color: rgb(98, 100, 101);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Typography Styles */
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: var(--main-color);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #4b4b53;
+}
+
+p {
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Container Styles */
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Navigation Styles */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+/* Column Styles */
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 300px;
+  height: 260px;
+  border-radius: 8px;
+  border-top: solid 4px #e63950;
+  box-shadow: 10px 0px 30px #9bcaff77;
+  padding: 16px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* Image Styles */
+.col img {
+  margin-top: auto; /* Pushes the image to the bottom */
+  margin-left: auto; /* Pushes the image to the right */
+  padding: 8px;
+  width: 75px;
+}
+
+/* Text Container Styles */
+.container-text {
+  text-align: left;
+  padding-left: 24px;
+}
